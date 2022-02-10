@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>StarWars Doc</title>
+</head>
+<body>
+    <main>
+    <section id="controlPannel">
+        <form>
+            <h2>Star Wars Database</h2>
+            <h4>What Planet Would You Like To Search?</h4>
+            <input type="text"><br><br>
+            <button>Get Residents</button>
+        </form>
+    </section>
+
+    <section id="results" class="hiden">  
+        <div id="planets">
+        </div>
+
+        <div id="population">
+        </div>
+    </section>
+
+    </main>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
